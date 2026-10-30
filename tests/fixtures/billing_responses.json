@@ -1,0 +1,53 @@
+{
+  "invoice_create": {
+    "invoice_id": "inv_clickru_98241029",
+    "partner": "click_ru",
+    "account_id": "agency_master_48291",
+    "gross_budget": 1000.0,
+    "currency": "USDT",
+    "commission_rate": 0.12,
+    "commission_amount": 120.0,
+    "net_media_spend": 880.0,
+    "status": "PENDING",
+    "created_at": "2026-10-30T10:00:00Z"
+  },
+  "webhook_simulate": {
+    "event": "PAYMENT_CONFIRMED",
+    "invoice_id": "inv_clickru_98241029",
+    "transaction_hash": "tx_ton_0x98f4a102bce987",
+    "amount_paid": 1000.0,
+    "currency": "USDT",
+    "payment_verified": true,
+    "timestamp": "2026-10-30T10:05:00Z"
+  },
+  "cashback_ledger": {
+    "click_ru": {
+      "partner": "click_ru",
+      "period": "2026-10",
+      "total_turnover": 880.0,
+      "cashback_tier_rate": 0.045,
+      "accrued_cashback_amount": 39.60,
+      "currency": "USDT",
+      "status": "ACCRUED"
+    },
+    "elama": {
+      "partner": "elama",
+      "period": "2026-10",
+      "total_turnover": 880.0,
+      "cashback_tier_rate": 0.05,
+      "accrued_cashback_amount": 44.00,
+      "currency": "USDT",
+      "status": "ACCRUED"
+    }
+  },
+  "account_distribute": {
+    "status": "success",
+    "distributed_allocations": {
+      "meta_instagram": 350.0,
+      "tiktok": 250.0,
+      "telegram_adsly": 150.0,
+      "telegram_adsgram": 130.0
+    },
+    "total_distributed": 880.0
+  }
+}

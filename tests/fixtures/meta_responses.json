@@ -1,0 +1,78 @@
+{
+  "campaign_create": {
+    "id": "cmp_meta_987410293847",
+    "name": "LeadGen_Campaign_Q4",
+    "objective": "OUTCOME_LEADS",
+    "status": "PAUSED",
+    "buying_type": "AUCTION",
+    "special_ad_categories": ["NONE"],
+    "success": true
+  },
+  "adset_create": {
+    "id": "adset_meta_382910482910",
+    "name": "Reels_Targeting_AdSet",
+    "campaign_id": "cmp_meta_987410293847",
+    "daily_budget": 1500,
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "LEAD_GENERATION",
+    "targeting": {
+      "geo_locations": {
+        "countries": ["KZ", "UZ"]
+      },
+      "publisher_platforms": ["instagram"],
+      "instagram_positions": ["reels", "story"]
+    },
+    "status": "PAUSED",
+    "success": true
+  },
+  "adcreative_create": {
+    "id": "cst_meta_482910492819",
+    "name": "Reels_Creative_V1",
+    "object_story_spec": {
+      "page_id": "1002938472910",
+      "link_data": {
+        "link": "https://example.com/promo?utm_source=meta&utm_medium=reels&utm_campaign=leadgen_q4&utm_content=hook_v1",
+        "message": "Discover next-gen trading tools in 3 seconds",
+        "call_to_action": {
+          "type": "LEARN_MORE",
+          "value": {
+            "link": "https://example.com/promo?utm_source=meta&utm_medium=reels&utm_campaign=leadgen_q4&utm_content=hook_v1"
+          }
+        }
+      }
+    },
+    "success": true
+  },
+  "ad_create": {
+    "id": "ad_meta_582910482911",
+    "name": "Reels_Ad_V1",
+    "adset_id": "adset_meta_382910482910",
+    "creative": {
+      "creative_id": "cst_meta_482910492819"
+    },
+    "status": "PAUSED",
+    "success": true
+  },
+  "ad_status_update": {
+    "success": true,
+    "updated_status": "PAUSED"
+  },
+  "insights": {
+    "data": [
+      {
+        "spend": 45.0,
+        "impressions": 12500,
+        "reach": 5200,
+        "clicks": 320,
+        "actions": [
+          {
+            "action_type": "lead",
+            "value": 3
+          }
+        ],
+        "cpa": 15.0,
+        "frequency": 2.40
+      }
+    ]
+  }
+}

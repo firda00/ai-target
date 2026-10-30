@@ -1,0 +1,25 @@
+{
+  "campaign_create": {
+    "status": "created",
+    "campaign_id": "ag_camp_74829104",
+    "campaign_name": "MiniApp_Rewarded_Ad",
+    "format": "REWARDED_VIDEO",
+    "daily_budget_usdt": 15.0,
+    "cpm_usdt": 1.20,
+    "destination_url": "https://t.me/my_bot/app?utm_source=adsgram&utm_medium=rewarded&utm_campaign=launch&utm_content=v1",
+    "status": "PAUSED"
+  },
+  "analytics_get": {
+    "campaign_id": "ag_camp_74829104",
+    "impressions": 12500,
+    "completed_views": 10800,
+    "spend_usdt": 15.0,
+    "ctr": 0.042,
+    "status": "PAUSED"
+  },
+  "status_update": {
+    "status": "success",
+    "campaign_id": "ag_camp_74829104",
+    "new_status": "PAUSED"
+  }
+}

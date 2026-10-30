@@ -1,0 +1,89 @@
+{
+  "channels_search": {
+    "status": "success",
+    "code": 200,
+    "channels_found": 3,
+    "data": [
+      {
+        "channel_id": 1092837465,
+        "username": "@ton_signals_pro",
+        "title": "TON Signals & Alpha",
+        "subscribers": 48200,
+        "engagement_rate": 0.084,
+        "avg_post_views": 4050,
+        "estimated_cpm_ton": 0.22,
+        "niche": "Crypto / Finance",
+        "language": "ru",
+        "verified": true
+      },
+      {
+        "channel_id": 1083746592,
+        "username": "@crypto_insider_hub",
+        "title": "Crypto Insider Hub",
+        "subscribers": 95000,
+        "engagement_rate": 0.052,
+        "avg_post_views": 4940,
+        "estimated_cpm_ton": 0.35,
+        "niche": "Crypto / News",
+        "language": "ru",
+        "verified": false
+      },
+      {
+        "channel_id": 1074829102,
+        "username": "@defi_alpha_daily",
+        "title": "DeFi Alpha Daily",
+        "subscribers": 22000,
+        "engagement_rate": 0.095,
+        "avg_post_views": 2100,
+        "estimated_cpm_ton": 0.18,
+        "niche": "DeFi / Web3",
+        "language": "en",
+        "verified": true
+      }
+    ]
+  },
+  "ad_create": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "ad_id": "adsly_ton_83920194",
+      "title": "DeFi Launch Bonus",
+      "text": "Trade crypto with 0% fee on TON. Join top community now!",
+      "promoted_entity": "@defi_trading_bot",
+      "cpm_ton": 0.15,
+      "budget_ton": 25.0,
+      "target_channel_count": 2,
+      "ad_status": "PAUSED",
+      "moderation_status": "APPROVED"
+    }
+  },
+  "bid_update": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "ad_id": "adsly_ton_83920194",
+      "old_cpm_ton": 0.15,
+      "new_cpm_ton": 0.18,
+      "status": "UPDATED"
+    }
+  },
+  "campaign_pause": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "ad_id": "adsly_ton_83920194",
+      "ad_status": "PAUSED"
+    }
+  },
+  "campaign_stats": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "ad_id": "adsly_ton_83920194",
+      "views": 42000,
+      "forwards": 180,
+      "joins": 320,
+      "spent_ton": 6.30
+    }
+  }
+}
